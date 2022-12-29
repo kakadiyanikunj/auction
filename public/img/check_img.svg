@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260" height="260" viewBox="0 0 260 260">
+  <defs>
+    <filter id="Rectangle_33" x="0" y="0" width="260" height="260" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#e65274"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_33-2" x="0" y="0" width="260" height="260" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#cb0d39" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Check_Out_" x="61" y="72" width="138" height="117" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(-85 -236)">
+    <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(115 266)">
+      <g data-type="innerShadowGroup">
+        <g transform="matrix(1, 0, 0, 1, -30, -30)" filter="url(#Rectangle_33)">
+          <rect id="Rectangle_33-3" data-name="Rectangle 33" width="200" height="200" rx="98" transform="translate(30 30)" fill="#f37391"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -30, -30)" filter="url(#Rectangle_33-2)">
+          <rect id="Rectangle_33-4" data-name="Rectangle 33" width="200" height="200" rx="98" transform="translate(30 30)" fill="#fff"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -30, -30)" filter="url(#Check_Out_)">
+        <text id="Check_Out_2" data-name="CheckOut " transform="translate(130 117)" fill="#d92f57" font-size="34" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-59.381" y="0">CHECK</tspan><tspan x="-38.998" y="51">OUT </tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,452 @@
+body{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212325;
+    background: #fafafa;
+    transition: all .2s ease-out;
+    font-family: 'Work Sans', sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.navbar-nav .nav-link:focus, .navbar-nav .nav-link.active {
+    color: #1c4cb0;
+}
+.navbar-toggler-icon{
+    display: block;
+    width: 30px;
+    height: 3px;
+    vertical-align: middle;
+    content: "";
+    background: #000;
+    outline: none;
+    margin: 5px 0;
+    background-size: 100% 100%;
+    transition: all 0.5s linear;
+}
+button:focus{
+    outline: none;
+} 
+h5.modal-title{
+    color: #031294;
+    margin: 0;
+    padding: 0;
+}
+/* devlop css */
+/*.bid_wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    position: relative;
+}*/
+.mobile_nav .mobile_navmenu ul li a.active {
+    color: #fff;
+    background: #1C34CE;
+}
+.nav-pills .nav-link{
+    font-weight: 600;
+    font-size: 20px;
+    color: #031294;
+}
+.devlop_wrapper .p-0 {
+    padding: 0!important;
+}
+.devlop_wrapper{
+    background: #fafafa;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+.devlop_title h3 {
+    color: #031294;
+    font-weight: 600;
+    font-size: 30px;
+    margin:  0;
+    padding: 0;
+}
+.devlop_wrapper .nav-item {
+    width: 32%;
+    text-align: center;
+    margin: 30px 0;
+}
+.devlop_inner{
+    padding: 30px 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ABB5F6;
+    box-shadow: 0 0 10px -2px rgb(127 123 123 / 5%);
+    transition: all .3s ease-in;
+}
+.devlop_box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.devlop_img{
+    margin-right: 30px;
+}
+.devlop_img p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 5px 0;
+    padding: 0;
+    color: #031294;
+}
+.devlop_content h5{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    color: #031294;
+}
+.devlop_content h6{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 0;
+    color: #031294;
+    line-height: 1.1;
+}
+.devlop_content p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #031294;
+}
+.devlop_pag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #031294;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+.devlop_pag span{
+    color: #fff;
+}
+.devlop_form {
+    
+}
+.form_content ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.form_content ul li {
+    font-size: 16px;
+    color: #031294;
+    border: 1px solid #abb5f6;
+    margin-top: 3px;
+    padding: 6px 0;
+    font-weight: 500;
+    border-radius: 7px;
+    text-align: center;
+}
+.form_content ul.bid_img li{
+    border: none;
+}
+.form_content .form-control{
+    padding: 0;
+    border: none;
+    text-align: center;
+    color: #cacaca;
+}
+.view_btn{
+    display: inline-block;
+    padding: 10px 26px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #14C832;
+    margin-top: 12px;
+}
+.view_btn:hover{
+    color: #fff;
+}
+.view_btn.blue{
+    background: #031294;
+    padding: 10px 34px;
+    font-size: 18px;
+}
+.amount_pag p{
+    font-size: 16px;
+    color: #031294;
+    font-weight: 500;
+    margin: 12px 0 0 0;
+    padding: 0;
+    line-height: 1;
+}
+.amount_pag p b{
+    color: #B20012;
+}
+.amount_pag p span{
+    color: #FF0000;
+}
+/* start app css */
+.app_content{
+    margin: 50px 0;
+    border-radius: 10px;
+    padding: 0 10px;
+    border: 1px solid #031294;
+}
+.app_content p{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 10px 0 20px;
+    padding: 0;
+    line-height: 1.4;
+    color: #031294;
+}
+.app_content ul li{
+    color: #031294;
+}
+p.game_pag{
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+/* start profile css */
+
+.custom_form{
+    margin: 30px 0;
+}
+.custom_form label{
+    font-size: 17px;
+    color: #1C34CE;
+}
+.custom_form .form-control{
+    border: 1px solid #707070;
+    background: transparent;
+    border-radius: 10px;
+}
+.devlop_head h3{
+    color: #031294;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 30px 0;
+    padding: 0;
+}
+
+/* start running task css */
+.amount_pag.green p b{
+    color: #056840;
+    font-weight: 500;
+}
+.work_project .modal-header{
+    border-bottom: dashed;
+    color: #031294;
+}
+.modal-body{
+    padding: 30px;
+}
+.timline_border{
+    position: relative;
+    margin: 30px 0 50px;
+}
+.timline_border p{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 0;
+    text-align: center;
+    color: #031294;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-top: dashed;
+    top: -14px;
+}
+.timline_content{
+    padding: 30px 0;
+}
+.project_pag {
+    background: #84EB90;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 7px;
+}
+.project_pag.yellow{
+    background: #F2F5A0;
+}
+/* start mobile section */
+
+.mobile_nav{
+    position: relative;
+    z-index: 10;
+}
+.mobile_navmenu{
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.mobile_navmenu ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 18px;
+    display: inline-block;
+    position: relative;
+    border-radius: 7px;
+    color: #000;
+    transition: all .3s ease-in;
+}
+.mobile_navmenu ul li a i span {
+    color: #000;
+}
+.mobile_navmenu ul li a i span.active{
+    color: #1c4cb0;
+}
+.mobile_navmenu ul li a i.blue {
+    color: #2763cd;
+}
+.nav-item span{
+    display: flex;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* start daily task section */
+.daily_task{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+}
+.daily_task:before{
+    content: '';
+    position: absolute;
+    color: #031294;
+    border-bottom: dashed;
+    width: 100%;
+    bottom: -20px;
+}
+.task_wrapper h6{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0 15px 0;
+    padding: 0;
+    color: #031294;
+}
+.task_wrapper img{
+    width: 70px;
+    height: 70px;
+}
+.task_wrapper span{
+    font-weight: 500;
+    font-size: 18px;
+    color: #031294;
+}
+.daily_day p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #031294;
+}
+.daily_day p span{
+    font-weight: 600;
+}
+.daily_start p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #031294;
+}
+.daily_start {
+    margin: 40px 0;
+}
+.daily_login p{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #031294;
+    position: relative;
+}
+.daily_login p:before{
+    content: '';
+    position: absolute;
+    color: #031294;
+    border-bottom: dashed;
+    width: 30%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -14px;
+}
+.daily_item{
+    position: relative;
+    margin-bottom: 20px;
+}
+.daily_item:before{
+    content: '';
+    position: absolute;
+    color: #031294;
+    border-top: dashed;
+    width: 100%;
+    top: 0;
+}
+.daily_item ul{
+    padding-top: 20px;
+}
+.daily_item ul a li{
+    background: #B6C6F0;
+    border-radius: 7px;
+    padding: 15px;
+    position: relative;
+    color: #031294;
+    margin-bottom: 15px;
+}
+.daily_item ul a li span img{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.app_content.daily_content{
+    margin: 0;
+}
+.work_project .modal-header.border-bottom-none{
+    border-bottom: none;
+}
+.invoice_img{
+    position: relative;
+}
+.invoice_btn{
+    display: inline-block;
+    padding: 10px 26px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #031294;
+    position: absolute;
+    BOTTOM: -44px;
+    LEFT: 0;
+    RIGHT: 0;
+    width: 170px;
+    margin: 0 auto;
+}
+.bid_container{
+    max-width: 950px;
+    margin: 0 auto;
+}
